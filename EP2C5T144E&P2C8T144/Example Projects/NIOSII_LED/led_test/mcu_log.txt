@@ -1,0 +1,95 @@
+Altera SOPC Builder Version 8.00 Build 215
+Copyright (c) 1999-2007 Altera Corporation.  All rights reserved.
+
+
+# 2009.12.31 19:12:12 (*) mk_custom_sdk starting
+# 2009.12.31 19:12:12 (*) Reading project D:/project/led_test/mcu.ptf.
+
+# 2009.12.31 19:12:13 (*) Finding all CPUs
+# 2009.12.31 19:12:13 (*) Finding all available components
+# 2009.12.31 19:12:13 (*) Reading D:/project/led_test/.sopc_builder/install.ptf
+
+# 2009.12.31 19:12:13 (*) Found 67 components
+
+# 2009.12.31 19:12:13 (*) Finding all peripherals
+
+# 2009.12.31 19:12:13 (*) Finding software components
+
+# 2009.12.31 19:12:13 (*) (Legacy SDK Generation Skipped)
+# 2009.12.31 19:12:13 (*) (All TCL Script Generation Skipped)
+# 2009.12.31 19:12:13 (*) (No Libraries Built)
+# 2009.12.31 19:12:13 (*) (Contents Generation Skipped)
+# 2009.12.31 19:12:13 (*) mk_custom_sdk finishing
+
+# 2009.12.31 19:12:13 (*) Starting generation for system: mcu.
+
+.
+..
+.
+
+# 2009.12.31 19:12:14 (*) Running Generator Program for cpu
+
+# 2009.12.31 19:12:16 (*)   Checking for plaintext license.
+# 2009.12.31 19:12:17 (*)   Plaintext license not found.
+# 2009.12.31 19:12:17 (*)   Checking for encrypted license (non-evaluation).
+# 2009.12.31 19:12:18 (*)   Encrypted license found.  SOF will not be time-limited.
+# 2009.12.31 19:12:25 (*)   Creating encrypted HDL
+
+# 2009.12.31 19:12:26 (*) Running Generator Program for onchip_rom
+
+# 2009.12.31 19:12:27 (*) Running Generator Program for onchip_ram
+
+# 2009.12.31 19:12:28 (*) Running Generator Program for led_pio
+
+
+# 2009.12.31 19:12:29 (*) Making arbitration and system (top) modules.
+
+# 2009.12.31 19:12:31 (*) Generating Quartus symbol for top level: mcu
+
+# 2009.12.31 19:12:31 (*) Generating Symbol D:/project/led_test/mcu.bsf
+
+# 2009.12.31 19:12:31 (*) Creating command-line system-generation script: D:/project/led_test/mcu_generation_script
+
+# 2009.12.31 19:12:31 (*) Running setup for HDL simulator: modelsim
+
+
+# 2009.12.31 19:12:31 (*) Setting up Quartus with mcu_setup_quartus.tcl
+d:/altera/80/quartus/bin/quartus_sh -t mcu_setup_quartus.tcl
+
+
+Info: *******************************************************************
+Info: Running Quartus II Shell
+    Info: Version 8.0 Build 215 05/29/2008 SJ Full Version
+    Info: Copyright (C) 1991-2008 Altera Corporation. All rights reserved.
+    Info: Your use of Altera Corporation's design tools, logic functions 
+    Info: and other software and tools, and its AMPP partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the Altera Program License 
+    Info: Subscription Agreement, Altera MegaCore Function License 
+    Info: Agreement, or other applicable license agreement, including, 
+    Info: without limitation, that your use is for the sole purpose of 
+    Info: programming logic devices manufactured by Altera and sold by 
+    Info: Altera or its authorized distributors.  Please refer 
+to the 
+    Info: applicable agreement for further details.
+    Info: Processing started: Thu Dec 31 19:12:31 2009
+Info: Command: quartus_sh -t mcu_setup_quartus.tcl
+Info: Evaluation of Tcl script mcu_setup_quartus.tcl was successful
+Info: Quartus II Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 48 megabytes
+    Info: Processing ended: Thu Dec 31 19:12:32 2009
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:00
+
+# 2009.12.31 19:12:32 (*) Completed generation for system: mcu.
+# 2009.12.31 19:12:32 (*) THE FOLLOWING SYSTEM ITEMS HAVE BEEN GENERATED:
+  SOPC Builder database : D:/project/led_test/mcu.ptf 
+  System HDL Model : D:/project/led_test/mcu.v 
+  System Generation Script : D:/project/led_test/mcu_generation_script 
+
+# 2009.12.31 19:12:32 (*) SUCCESS: SYSTEM GENERATION COMPLETED.
+
+
+Press 'Exit' to exit.

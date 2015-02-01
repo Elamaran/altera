@@ -1,0 +1,29 @@
+countpro里面为EP2C8T144测试程序，实现跑马灯功能。
+
+
+程序使用板载的50MHZ有源晶振提供时钟。
+
+50MHZ有源时钟-->17
+LED0-->3
+LED1-->7
+LED2-->9
+
+看cyclone II的器件手册时，看到一段关于配置器件的描述：可以通过JTAG接口对串行配置器件进行编程，可是里面没有详细的使用方法，在altera的网站上找到了一些关于这个的资料。       
+ 
+　　先介绍一下SFL：Serial Flash Loader，它是通过JTAG接口在系统编程(isp)串行配置器件。这种方法主要是通过FPGA作为一个JTAG与串行配置器件之间的桥梁，优点是能通过一个JTAG接口对器件进行配置，缺点是慢，因为在编程前要对FPGA进行配置。       　　
+ 
+　　首先编译生成SOF文件，也就是JTAG方式下的下载文件，然后    
+ 
+　　1、在“文件”里选择“Convert Programming Files”，出现对话框后    
+ 
+　　2、在programming file type里选.jic    
+ 
+　　3、在configuration device里选择相应的串行配置器件    
+ 
+　　4、 file name选择转换文件    　　
+ 
+　　5、选sof data，单击add file选择sof文件        
+ 
+　　6、flash loader单击add device选择FPGA器件    
+ 
+　　然后OK生成JIC文件，后面的事情跟JTAG下下载一样，只是将文件类型选为JIC文件，选EPCS1时，有时会提示容量不够，选EPCS4就没有问题。

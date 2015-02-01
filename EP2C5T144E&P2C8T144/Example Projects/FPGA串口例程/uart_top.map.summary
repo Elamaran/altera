@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Mon Dec 01 14:16:44 2008
+Quartus II Version : 8.0 Build 215 05/29/2008 SJ Full Version
+Revision Name : uart_top
+Top-level Entity Name : uart_top
+Family : Cyclone II
+Total logic elements : 497
+    Total combinational functions : 315
+    Dedicated logic registers : 497
+Total registers : N/A until Partition Merge
+Total pins : N/A until Partition Merge
+Total virtual pins : N/A until Partition Merge
+Total memory bits : N/A until Partition Merge
+Embedded Multiplier 9-bit elements : N/A until Partition Merge
+Total PLLs : N/A until Partition Merge

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><preferences>
+    <systemtable>
+        <columns>
+            <connections preferredWidth="47" />
+            <irq preferredWidth="34" />
+        </columns>
+    </systemtable>
+    <clocktable>
+        <columns>
+            <clockname preferredWidth="267" />
+            <clocksource preferredWidth="267" />
+            <frequency preferredWidth="247" />
+        </columns>
+    </clocktable>
+    <window width="1288" height="774" x="-4" y="-4" />
+    <library expandedCategories="Interface Protocols,Video and Image Processing/IO,PLL,Peripherals,Memories and Memory Controllers,Memories and Memory Controllers/On-Chip,Video and Image Processing,Legacy Components,Peripherals/Microcontroller Peripherals,Bridges and Adapters,USB" />
+</preferences>

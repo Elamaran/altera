@@ -1,0 +1,11 @@
+Fitter Status : Successful - Mon Jun 09 13:23:25 2008
+Quartus II Version : 7.2 Build 151 09/26/2007 SJ Full Version
+Revision Name : keypad_scanner
+Top-level Entity Name : keypad_scanner
+Family : MAX II
+Device : EPM1270T144C5
+Timing Models : Final
+Total logic elements : 62 / 1,270 ( 5 % )
+Total pins : 29 / 116 ( 25 % )
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )

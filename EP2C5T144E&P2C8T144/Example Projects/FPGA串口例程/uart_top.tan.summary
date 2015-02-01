@@ -1,0 +1,86 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 5.501 ns
+From           : RxD
+To             : sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|acq_trigger_in_reg[0]
+From Clock     : --
+To Clock       : auto_stp_external_clock_0
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 13.564 ns
+From           : GPout[2]~reg0
+To             : GPout[2]
+From Clock     : in_clk_50mhz
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case tpd
+Slack          : N/A
+Required Time  : None
+Actual Time    : 3.106 ns
+From           : altera_internal_jtag~TDO
+To             : altera_reserved_tdo
+From Clock     : --
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : 2.851 ns
+From           : altera_internal_jtag~TDIUTAP
+To             : sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_ela_control:ela_control|sld_ela_basic_multi_level_trigger:\basic_multi_level_mbpm_trigger_gen:multi_level_mbpm|lpm_shiftreg:trigger_condition_deserialize|dffs[56]
+From Clock     : --
+To Clock       : altera_internal_jtag~TCKUTAP
+Failed Paths   : 0
+
+Type           : Clock Setup: 'altera_internal_jtag~TCKUTAP'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 89.65 MHz ( period = 11.154 ns )
+From           : sld_hub:sld_hub_inst|sld_dffex:BROADCAST|Q[0]
+To             : sld_hub:sld_hub_inst|hub_tdo_reg
+From Clock     : altera_internal_jtag~TCKUTAP
+To Clock       : altera_internal_jtag~TCKUTAP
+Failed Paths   : 0
+
+Type           : Clock Setup: 'auto_stp_external_clock_0'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 134.30 MHz ( period = 7.446 ns )
+From           : sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_buffer_manager:sld_buffer_manager_inst|counter[3]
+To             : sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_buffer_manager:sld_buffer_manager_inst|last_trigger_address_var[5]
+From Clock     : auto_stp_external_clock_0
+To Clock       : auto_stp_external_clock_0
+Failed Paths   : 0
+
+Type           : Clock Setup: 'in_clk_50mhz'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 240.85 MHz ( period = 4.152 ns )
+From           : async_receiver:deserializer|bit_spacing[1]
+To             : async_receiver:deserializer|RxD_data[7]
+From Clock     : in_clk_50mhz
+To Clock       : in_clk_50mhz
+Failed Paths   : 0
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 0
+
+--------------------------------------------------------------------------------------
+

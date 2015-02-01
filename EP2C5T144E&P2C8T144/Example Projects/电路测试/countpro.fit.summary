@@ -1,0 +1,16 @@
+Fitter Status : Successful - Thu Jul 16 11:49:22 2009
+Quartus II Version : 8.0 Build 215 05/29/2008 SJ Full Version
+Revision Name : countpro
+Top-level Entity Name : countpro
+Family : Cyclone II
+Device : EP2C8T144C8
+Timing Models : Final
+Total logic elements : 35 / 8,256 ( < 1 % )
+    Total combinational functions : 35 / 8,256 ( < 1 % )
+    Dedicated logic registers : 27 / 8,256 ( < 1 % )
+Total registers : 27
+Total pins : 4 / 85 ( 5 % )
+Total virtual pins : 0
+Total memory bits : 0 / 165,888 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 36 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )

@@ -1,0 +1,231 @@
+Partition Merge report for uart_top
+Mon Dec 01 14:16:59 2008
+Quartus II Version 8.0 Build 215 05/29/2008 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Partition Merge Summary
+  3. Partition Merge Netlist Types Used
+  4. Partition Merge Partition Statistics
+  5. Partition Merge Partition Assignments
+  6. Partition Merge Resource Usage Summary
+  7. Partition Merge RAM Summary
+  8. Partition Merge Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2008 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------------+
+; Partition Merge Summary                                                       ;
++------------------------------------+------------------------------------------+
+; Partition Merge Status             ; Successful - Mon Dec 01 14:16:59 2008    ;
+; Quartus II Version                 ; 8.0 Build 215 05/29/2008 SJ Full Version ;
+; Revision Name                      ; uart_top                                 ;
+; Top-level Entity Name              ; uart_top                                 ;
+; Family                             ; Cyclone II                               ;
+; Total logic elements               ; 641                                      ;
+;     Total combinational functions  ; 484                                      ;
+;     Dedicated logic registers      ; 641                                      ;
+; Total registers                    ; 641                                      ;
+; Total pins                         ; 24 / 138 ( 17 % )                        ;
+; Total virtual pins                 ; 0                                        ;
+; Total memory bits                  ; 38,912 / 165,888 ( 23 % )                ;
+; Embedded Multiplier 9-bit elements ; 0 / 36 ( 0 % )                           ;
+; Total PLLs                         ; 0 / 2 ( 0 % )                            ;
++------------------------------------+------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------+
+; Partition Merge Netlist Types Used                                                                                ;
++--------------------------------+------------------------+------------------------+--------------------------------+
+; Partition Name                 ; Netlist Type Used      ; Netlist Type Requested ; Partition Contents             ;
++--------------------------------+------------------------+------------------------+--------------------------------+
+; Top                            ; Post-Fitter Netlist    ; Post-Fitter Netlist    ; |                              ;
+; sld_hub:sld_hub_inst           ; Post-Synthesis Netlist ; Post-Synthesis Netlist ; sld_hub:sld_hub_inst           ;
+; sld_signaltap:auto_signaltap_0 ; Post-Synthesis Netlist ; Post-Synthesis Netlist ; sld_signaltap:auto_signaltap_0 ;
++--------------------------------+------------------------+------------------------+--------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------+
+; Partition Merge Partition Statistics                                                                ;
++---------------------------------------+-----+----------------------+--------------------------------+
+; Statistic                             ; Top ; sld_hub:sld_hub_inst ; sld_signaltap:auto_signaltap_0 ;
++---------------------------------------+-----+----------------------+--------------------------------+
+; Resources                             ;     ;                      ;                                ;
+;     -- Pre-placed nodes               ; 6   ; 176                  ; 832                            ;
+;     -- I/O                            ; 22  ; 0                    ; 0                              ;
+;     -- Combinational cell             ; 80  ; 0                    ; 0                              ;
+;     -- Register cell                  ; 65  ; 0                    ; 0                              ;
+;     -- Clock control block            ; 1   ; 0                    ; 0                              ;
+;     -- Virtual pin                    ; 0   ; 0                    ; 0                              ;
+;                                       ;     ;                      ;                                ;
+; Connections                           ;     ;                      ;                                ;
+;     -- Input Connections              ; 1   ; 111                  ; 403                            ;
+;     -- Registered Input Connections   ; 0   ; 90                   ; 284                            ;
+;     -- Output Connections             ; 391 ; 123                  ; 1                              ;
+;     -- Registered Output Connections  ; 36  ; 115                  ; 0                              ;
+;                                       ;     ;                      ;                                ;
+; Internal Congestion                   ;     ;                      ;                                ;
+;     -- Total Connections              ; 779 ; 690                  ; 2999                           ;
+;     -- Registered Connections         ; 206 ; 510                  ; 1746                           ;
+;                                       ;     ;                      ;                                ;
+; Inter-partition connections           ;     ;                      ;                                ;
+;     -- Top                            ; 0   ; 111                  ; 281                            ;
+;     -- sld_hub:sld_hub_inst           ; 111 ; 0                    ; 123                            ;
+;     -- sld_signaltap:auto_signaltap_0 ; 281 ; 123                  ; 0                              ;
++---------------------------------------+-----+----------------------+--------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Partition Merge Partition Assignments                                                                                                                     ;
++-----------+-------------------------------------------------------------+-----------------------------------------+------+--------------------------------+
+; Partition ; Assignment                                                  ; Value                                   ; From ; To                             ;
++-----------+-------------------------------------------------------------+-----------------------------------------+------+--------------------------------+
+; Top       ; Partition Import File Name                                  ;                                         ;      ;                                ;
+; Top       ; Partition Last Imported File Name                           ;                                         ;      ;                                ;
+; Top       ; Partition Hierarchy                                         ; autos_3e92b2e5d298f5cf757a393f7655ccd81 ;      ; sld_signaltap:auto_signaltap_0 ;
+; Top       ; Partition netlist type                                      ; SOURCE                                  ;      ;                                ;
+; Top       ; Color of the partition when displayed in various tools      ; 2105567                                 ;      ;                                ;
+; Top       ; Partition Import File Name                                  ;                                         ;      ;                                ;
+; Top       ; Import assignments                                          ; On                                      ;      ;                                ;
+; Top       ; Import existing assignments                                 ; REPLACE_CONFLICTING                     ;      ;                                ;
+; Top       ; Import existing LogicLock regions                           ; REPLACE_CONFLICTING                     ;      ;                                ;
+; Top       ; Import pin assignments                                      ; On                                      ;      ;                                ;
+; Top       ; Promote assignments to all instances of the imported entity ; On                                      ;      ;                                ;
+; Top       ; Partition Last Imported File Name                           ;                                         ;      ;                                ;
+; Top       ; Partition type                                              ; INCR_SIGNALTAP_PARTITION                ;      ;                                ;
+; Top       ; Partition Hierarchy                                         ; sldhu_30e344a040fd07e1533c49de5f2d67d1  ;      ; sld_hub:sld_hub_inst           ;
+; Top       ; Partition netlist type                                      ; SOURCE                                  ;      ;                                ;
+; Top       ; Color of the partition when displayed in various tools      ; 2154272                                 ;      ;                                ;
+; Top       ; Partition Import File Name                                  ;                                         ;      ;                                ;
+; Top       ; Import assignments                                          ; On                                      ;      ;                                ;
+; Top       ; Import existing assignments                                 ; REPLACE_CONFLICTING                     ;      ;                                ;
+; Top       ; Import existing LogicLock regions                           ; REPLACE_CONFLICTING                     ;      ;                                ;
+; Top       ; Import pin assignments                                      ; On                                      ;      ;                                ;
+; Top       ; Promote assignments to all instances of the imported entity ; On                                      ;      ;                                ;
+; Top       ; Partition Last Imported File Name                           ;                                         ;      ;                                ;
+; Top       ; Partition type                                              ; INCR_SIGNALTAP_PARTITION                ;      ;                                ;
+; Top       ; Auto Shift Register Replacement                             ; OFF                                     ;      ;                                ;
+; Top       ; NOT Gate Push-Back                                          ; OFF                                     ;      ;                                ;
+; Top       ; Power-Up Level                                              ; LOW                                     ;      ;                                ;
+; Top       ; SUPPRESS_DA_RULE_INTERNAL                                   ; D101                                    ;      ;                                ;
+; Top       ; SUPPRESS_DA_RULE_INTERNAL                                   ; D103                                    ;      ;                                ;
+; Top       ; SUPPRESS_DA_RULE_INTERNAL                                   ; C106                                    ;      ;                                ;
+; Top       ; SUPPRESS_DA_RULE_INTERNAL                                   ; R105                                    ;      ;                                ;
+; Top       ; Auto ROM Replacement                                        ; OFF                                     ;      ;                                ;
+; Top       ; Auto ROM Replacement                                        ; OFF                                     ;      ;                                ;
+; Top       ; NOT Gate Push-Back                                          ; OFF                                     ;      ; CLR_SIGNAL                     ;
+; Top       ; Remove Redundant Logic Cells                                ; OFF                                     ;      ;                                ;
+; Top       ; Ignore LCELL Buffers                                        ; OFF                                     ;      ;                                ;
+; Top       ; Power-Up Level                                              ; LOW                                     ;      ; CLR_SIGNAL                     ;
+; Top       ; SUPPRESS_DA_RULE_INTERNAL                                   ; A103,C102,C101                          ;      ;                                ;
+; Top       ; SUPPRESS_DA_RULE_INTERNAL                                   ; C106                                    ;      ; hub_tdo_reg                    ;
+; Top       ; NOT Gate Push-Back                                          ; ON                                      ;      ; modified_post_count[0]         ;
+; Top       ; NOT Gate Push-Back                                          ; ON                                      ;      ; modified_post_count[10]        ;
+; Top       ; NOT Gate Push-Back                                          ; ON                                      ;      ; modified_post_count[11]        ;
+; Top       ; NOT Gate Push-Back                                          ; ON                                      ;      ; modified_post_count[1]         ;
+; Top       ; NOT Gate Push-Back                                          ; ON                                      ;      ; modified_post_count[2]         ;
+; Top       ; NOT Gate Push-Back                                          ; ON                                      ;      ; modified_post_count[3]         ;
+; Top       ; NOT Gate Push-Back                                          ; ON                                      ;      ; modified_post_count[4]         ;
+; Top       ; NOT Gate Push-Back                                          ; ON                                      ;      ; modified_post_count[5]         ;
+; Top       ; NOT Gate Push-Back                                          ; ON                                      ;      ; modified_post_count[6]         ;
+; Top       ; NOT Gate Push-Back                                          ; ON                                      ;      ; modified_post_count[7]         ;
+; Top       ; NOT Gate Push-Back                                          ; ON                                      ;      ; modified_post_count[8]         ;
+; Top       ; NOT Gate Push-Back                                          ; ON                                      ;      ; modified_post_count[9]         ;
+; Top       ; SUPPRESS_DA_RULE_INTERNAL                                   ; a101                                    ;      ;                                ;
+; Top       ; SUPPRESS_DA_RULE_INTERNAL                                   ; s102                                    ;      ;                                ;
+; Top       ; SUPPRESS_DA_RULE_INTERNAL                                   ; s103                                    ;      ;                                ;
+; Top       ; PowerPlay Power Optimization                                ; NORMAL_COMPILATION                      ;      ;                                ;
+; Top       ; PowerPlay Power Optimization                                ; NORMAL_COMPILATION                      ;      ;                                ;
++-----------+-------------------------------------------------------------+-----------------------------------------+------+--------------------------------+
+
+
++------------------------------------------------------------------------+
+; Partition Merge Resource Usage Summary                                 ;
++---------------------------------------------+--------------------------+
+; Resource                                    ; Usage                    ;
++---------------------------------------------+--------------------------+
+; Estimated Total logic elements              ; 641 / 8,256 ( 7 % )      ;
+;                                             ;                          ;
+; Total combinational functions               ; 484                      ;
+; Logic element usage by number of LUT inputs ;                          ;
+;     -- 4 input functions                    ; 195                      ;
+;     -- 3 input functions                    ; 124                      ;
+;     -- <=2 input functions                  ; 165                      ;
+;                                             ;                          ;
+; Logic elements by mode                      ;                          ;
+;     -- normal mode                          ; 401                      ;
+;     -- arithmetic mode                      ; 83                       ;
+;                                             ;                          ;
+; Total registers                             ; 641                      ;
+;     -- Dedicated logic registers            ; 641                      ;
+;     -- I/O registers                        ; 0                        ;
+;                                             ;                          ;
+; I/O pins                                    ; 24                       ;
+; Total memory bits                           ; 38912                    ;
+; Maximum fan-out node                        ; altera_internal_jtag~TDO ;
+; Maximum fan-out                             ; 340                      ;
+; Total fan-out                               ; 3921                     ;
+; Average fan-out                             ; 3.32                     ;
++---------------------------------------------+--------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Partition Merge RAM Summary                                                                                                                                                                                                                                                                   ;
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+----------------+--------------+--------------+--------------+--------------+-------+------+
+; Name                                                                                                                                                                                       ; Type ; Mode           ; Port A Depth ; Port A Width ; Port B Depth ; Port B Width ; Size  ; MIF  ;
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+----------------+--------------+--------------+--------------+--------------+-------+------+
+; sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|altsyncram:\stp_non_zero_ram_gen:stp_buffer_ram|altsyncram_k7p3:auto_generated|altsyncram_0hq1:altsyncram1|ALTSYNCRAM ; AUTO ; True Dual Port ; 2048         ; 19           ; 2048         ; 19           ; 38912 ; None ;
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+----------------+--------------+--------------+--------------+--------------+-------+------+
+
+
++--------------------------+
+; Partition Merge Messages ;
++--------------------------+
+Info: *******************************************************************
+Info: Running Quartus II Partition Merge
+    Info: Version 8.0 Build 215 05/29/2008 SJ Full Version
+    Info: Processing started: Mon Dec 01 14:16:54 2008
+Info: Command: quartus_cdb --read_settings_files=off --write_settings_files=off uart_top -c uart_top --merge=on
+Info: Using previously generated Fitter netlist for partition "Top"
+Info: Using synthesis netlist for partition "sld_signaltap:auto_signaltap_0"
+Info: Using synthesis netlist for partition "sld_hub:sld_hub_inst"
+Info: Resolved and merged 3 partition(s)
+Info: Optimized away 4 nodes that do not fan-out to Output/Bidir pins
+    Info: Node "sld_signaltap:auto_signaltap_0"
+Warning: Design contains 2 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "~ASDO~"
+    Warning (15610): No output dependent on input pin "~nCSO~"
+Info: Implemented 875 device resources after synthesis - the final resource count might be different
+    Info: Implemented 16 input pins
+    Info: Implemented 11 output pins
+    Info: Implemented 827 logic cells
+    Info: Implemented 19 RAM segments
+Info: Quartus II Partition Merge was successful. 0 errors, 3 warnings
+    Info: Peak virtual memory: 167 megabytes
+    Info: Processing ended: Mon Dec 01 14:17:00 2008
+    Info: Elapsed time: 00:00:06
+    Info: Total CPU time (on all processors): 00:00:03
+
+
