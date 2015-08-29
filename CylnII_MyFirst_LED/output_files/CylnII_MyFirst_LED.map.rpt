@@ -1,5 +1,5 @@
 Analysis & Synthesis report for CylnII_MyFirst_LED
-Sat Jan 31 21:41:40 2015
+Sat Aug 29 10:59:27 2015
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -43,7 +43,7 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sat Jan 31 21:41:40 2015           ;
+; Analysis & Synthesis Status        ; Successful - Sat Aug 29 10:59:27 2015           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; CylnII_MyFirst_LED                              ;
 ; Top-level Entity Name              ; top                                             ;
@@ -275,7 +275,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Sat Jan 31 21:41:38 2015
+    Info: Processing started: Sat Aug 29 10:59:24 2015
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off CylnII_MyFirst_LED -c CylnII_MyFirst_LED
 Info (11104): Parallel Compilation has detected 4 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 2 of the 2 physical processors detected instead.
 Info (12021): Found 1 design units, including 1 entities, in source file top.v
@@ -293,9 +293,9 @@ Info (21057): Implemented 31 device resources after synthesis - the final resour
 Info (144001): Generated suppressed messages file E:/Elamaran/MyProjects/Public/Altera/CylnII_MyFirst_LED/output_files/CylnII_MyFirst_LED.map.smsg
 Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 1 warning
     Info: Peak virtual memory: 457 megabytes
-    Info: Processing ended: Sat Jan 31 21:41:40 2015
-    Info: Elapsed time: 00:00:02
-    Info: Total CPU time (on all processors): 00:00:01
+    Info: Processing ended: Sat Aug 29 10:59:28 2015
+    Info: Elapsed time: 00:00:04
+    Info: Total CPU time (on all processors): 00:00:02
 
 
 +------------------------------------------+

@@ -1,0 +1,12 @@
+vendor_name = ModelSim
+source_file = 1, E:/Elamaran/MyProjects/Public/Altera/CylnII_DoubleClick_Btn_LED/CylnII_DoubleClick_Btn_LED.v
+source_file = 1, E:/Elamaran/MyProjects/Public/Altera/CylnII_DoubleClick_Btn_LED/dbl_tap_monitor.v
+source_file = 1, E:/Elamaran/MyProjects/Public/Altera/CylnII_DoubleClick_Btn_LED/simulation/Waveform.vwf
+source_file = 1, E:/Elamaran/MyProjects/Public/Altera/CylnII_DoubleClick_Btn_LED/db/CylnII_DoubleClick_Btn_LED.cbx.xml
+design_name = CylnII_DoubleClick_Btn_LED
+instance = comp, \clk~I , clk, CylnII_DoubleClick_Btn_LED, 1
+instance = comp, \rstn~I , rstn, CylnII_DoubleClick_Btn_LED, 1
+instance = comp, \btn~I , btn, CylnII_DoubleClick_Btn_LED, 1
+instance = comp, \led[0]~I , led[0], CylnII_DoubleClick_Btn_LED, 1
+instance = comp, \led[1]~I , led[1], CylnII_DoubleClick_Btn_LED, 1
+instance = comp, \led[2]~I , led[2], CylnII_DoubleClick_Btn_LED, 1

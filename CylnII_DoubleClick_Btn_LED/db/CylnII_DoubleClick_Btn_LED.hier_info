@@ -1,0 +1,69 @@
+|CylnII_DoubleClick_Btn_LED
+clk => ~NO_FANOUT~
+rstn => rstn.IN1
+btn => btn.IN1
+led[0] <= dbl_tap_monitor:comb_87.port4
+led[1] <= <GND>
+led[2] <= <GND>
+
+
+|CylnII_DoubleClick_Btn_LED|dbl_tap_monitor:comb_87
+clk_1k => tap_sense.CLK
+clk_1k => c_rstn.CLK
+clk_1k => counter[0].CLK
+clk_1k => counter[1].CLK
+clk_1k => counter[2].CLK
+clk_1k => counter[3].CLK
+clk_1k => counter[4].CLK
+clk_1k => counter[5].CLK
+clk_1k => counter[6].CLK
+clk_1k => counter[7].CLK
+clk_1k => counter[8].CLK
+clk_1k => counter[9].CLK
+clk_1k => counter[10].CLK
+clk_1k => counter[11].CLK
+clk_1k => counter[12].CLK
+clk_1k => counter[13].CLK
+clk_1k => counter[14].CLK
+clk_1k => counter[15].CLK
+clk_1k => tap_pulse_r.CLK
+rstn => counter[0].ACLR
+rstn => counter[1].ACLR
+rstn => counter[2].ACLR
+rstn => counter[3].ACLR
+rstn => counter[4].ACLR
+rstn => counter[5].ACLR
+rstn => counter[6].ACLR
+rstn => counter[7].ACLR
+rstn => counter[8].ACLR
+rstn => counter[9].ACLR
+rstn => counter[10].ACLR
+rstn => counter[11].ACLR
+rstn => counter[12].ACLR
+rstn => counter[13].ACLR
+rstn => counter[14].ACLR
+rstn => counter[15].ACLR
+rstn => tap_sense.ACLR
+rstn => c_rstn.ACLR
+rstn => tap_pulse_r.ACLR
+in_signal => tap_pulse.IN1
+in_signal => tap_pulse_r.DATAIN
+delay_ms[0] => LessThan0.IN34
+delay_ms[1] => LessThan0.IN33
+delay_ms[2] => LessThan0.IN32
+delay_ms[3] => LessThan0.IN31
+delay_ms[4] => LessThan0.IN30
+delay_ms[5] => LessThan0.IN29
+delay_ms[6] => LessThan0.IN28
+delay_ms[7] => LessThan0.IN27
+delay_ms[8] => LessThan0.IN26
+delay_ms[9] => LessThan0.IN25
+delay_ms[10] => LessThan0.IN24
+delay_ms[11] => LessThan0.IN23
+delay_ms[12] => LessThan0.IN22
+delay_ms[13] => LessThan0.IN21
+delay_ms[14] => LessThan0.IN20
+delay_ms[15] => LessThan0.IN19
+out_signal <= tap_sense.DB_MAX_OUTPUT_PORT_TYPE
+
+

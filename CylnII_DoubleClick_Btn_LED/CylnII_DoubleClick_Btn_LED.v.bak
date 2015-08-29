@@ -1,0 +1,7 @@
+
+module top (
+input wire clk,
+input wire rstn,
+input wire btn,
+
+output wire [2:0] led);
